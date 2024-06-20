@@ -1,0 +1,50 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Models="clr-namespace:CbIHNIIIA.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="CbIHNIIIA.Windows.AddWindows.AddPlayersWindow"
+        Title="Добавление игроков">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                <Label Content="Игроки" HorizontalAlignment="Center" FontSize="26" Margin="0,10,0,10"></Label>
+                <StackPanel Orientation="Horizontal">
+                        <Label Content="Фамилия" Margin="5" VerticalContentAlignment="Center"></Label>
+                        <TextBox Watermark="Ивинов" Width="300" Margin="90,5,0,5"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                        <Label Content="Имя" Margin="5" VerticalContentAlignment="Center"></Label>
+                        <TextBox Watermark="Иван" Width="300" Margin="124,5,0,5"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                        <Label Content="Отчество" Margin="5" VerticalContentAlignment="Center"></Label>
+                        <TextBox Watermark="Иванович" Width="300" Margin="90,5,0,5"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                        <Label Content="Дата рождения" Margin="5" VerticalContentAlignment="Center"></Label>
+                        <DatePicker DayFormat="dd" Width="300" Margin="48,5,0,5"></DatePicker>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                        <Label Content="Адрес" Margin="5" VerticalContentAlignment="Center"></Label>
+                        <TextBox Watermark="Советская 136" Width="300" Margin="113,5,0,5"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                        <Label Content="Номер" Margin="5" VerticalContentAlignment="Center"></Label>
+                        <TextBox Watermark="+79528120202" Width="300" Margin="109,5,0,5"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                        <Label Content="Команда" Margin="5" VerticalContentAlignment="Center"></Label>
+                        <ComboBox x:Name="comboBoxOrder" Margin="95,5,0,5" Width="300">
+                                <ComboBox.ItemTemplate>
+                                        <DataTemplate x:DataType="Models:Command">
+                                                <TextBlock Text="{Binding Name}"></TextBlock>
+                                        </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                        </ComboBox>
+                </StackPanel>
+                <Panel>
+                        <Button Margin="20" Content="Добавить" Width="100" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Click="Add_Button"></Button>
+                        <Button Margin="20" Content="Закрыть" Width="100" HorizontalContentAlignment="Center" HorizontalAlignment="Right" Click="Ext_Button"></Button>
+                </Panel>
+        </StackPanel>
+</Window>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="CbIHNIIIA/App.axaml" value="CbIHNIIIA/CbIHNIIIA.csproj" />
+        <entry key="CbIHNIIIA/CommandWindow.axaml" value="CbIHNIIIA/CbIHNIIIA.csproj" />
+        <entry key="CbIHNIIIA/EventsWindow.axaml" value="CbIHNIIIA/CbIHNIIIA.csproj" />
+        <entry key="CbIHNIIIA/MainWindow.axaml" value="CbIHNIIIA/CbIHNIIIA.csproj" />
+        <entry key="CbIHNIIIA/Menu.axaml" value="CbIHNIIIA/CbIHNIIIA.csproj" />
+        <entry key="CbIHNIIIA/PlayersWindow.axaml" value="CbIHNIIIA/CbIHNIIIA.csproj" />
+        <entry key="CbIHNIIIA/Windows/AddWindows/AddCommandWindow.axaml" value="CbIHNIIIA/CbIHNIIIA.csproj" />
+        <entry key="CbIHNIIIA/Windows/AddWindows/AddEventsWindow.axaml" value="CbIHNIIIA/CbIHNIIIA.csproj" />
+        <entry key="CbIHNIIIA/Windows/AddWindows/AddPlayersWindow.axaml" value="CbIHNIIIA/CbIHNIIIA.csproj" />
+        <entry key="CbIHNIIIA/Windows/CommandWindow.axaml" value="CbIHNIIIA/CbIHNIIIA.csproj" />
+        <entry key="CbIHNIIIA/Windows/EventsWindow.axaml" value="CbIHNIIIA/CbIHNIIIA.csproj" />
+        <entry key="CbIHNIIIA/Windows/MainWindow.axaml" value="CbIHNIIIA/CbIHNIIIA.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

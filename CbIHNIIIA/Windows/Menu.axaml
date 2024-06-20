@@ -1,0 +1,13 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="CbIHNIIIA.Menu"
+        Title="Menu">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Content="Список игроков" Margin="20" Width="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Player_Button"></Button>
+                <Button Content="Список команд" Margin="20" Width="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Command_Button"></Button>
+                <Button Content="Мероприятия" Margin="20" Width="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Events_Button"></Button>
+        </StackPanel>
+</Window>

@@ -1,0 +1,33 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:models="clr-namespace:CbIHNIIIA.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="CbIHNIIIA.CommandWindow"
+        Title="Команды">
+        <StackPanel Orientation="Vertical">
+                <Label Content="Команды" FontSize="20" Margin="5"></Label>
+                <StackPanel Orientation="Horizontal">
+                        <Button Content="Добавить" Click="Button_Add_Command" Width="100" HorizontalContentAlignment="Center" Margin="5"></Button>
+                        <Button Content="Изменить" Width="100" HorizontalContentAlignment="Center" Margin="5"></Button>
+                </StackPanel>
+                <DataGrid x:Name="Command"
+                          AutoGenerateColumns="False"
+                          IsReadOnly="True"
+                          Background="#FAEBD7"
+                          GridLinesVisibility="All"
+                          BorderThickness="1"
+                          BorderBrush="Gray"
+                          x:DataType="models:Command"
+                          Margin="0,20"
+                          HorizontalAlignment="Left">
+                        <DataGrid.Columns>
+                                <DataGridTextColumn Header="Название команды" Binding= "{Binding Name}"/>
+                                <DataGridTextColumn Header="Дата регистрации" Binding= "{Binding Date_Registration}"/>
+                                <DataGridTextColumn Header="Адрес команды" Binding= "{Binding Address}"/>
+                                <DataGridTextColumn Header="Количество игроков" Binding= "{Binding Count}"/>
+                        </DataGrid.Columns>
+                </DataGrid>
+        </StackPanel>
+</Window>

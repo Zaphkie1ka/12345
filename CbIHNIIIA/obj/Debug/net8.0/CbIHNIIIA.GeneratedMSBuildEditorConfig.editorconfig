@@ -1,0 +1,45 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CbIHNIIIA
+build_property.ProjectDir = C:\Users\syrga\RiderProjects\CbIHNIIIA\CbIHNIIIA\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/syrga/RiderProjects/CbIHNIIIA/CbIHNIIIA/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/syrga/RiderProjects/CbIHNIIIA/CbIHNIIIA/Windows/AddWindows/AddCommandWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/syrga/RiderProjects/CbIHNIIIA/CbIHNIIIA/Windows/AddWindows/AddEventsWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/syrga/RiderProjects/CbIHNIIIA/CbIHNIIIA/Windows/AddWindows/AddPlayersWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/syrga/RiderProjects/CbIHNIIIA/CbIHNIIIA/Windows/CommandWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/syrga/RiderProjects/CbIHNIIIA/CbIHNIIIA/Windows/EventsWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/syrga/RiderProjects/CbIHNIIIA/CbIHNIIIA/Windows/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/syrga/RiderProjects/CbIHNIIIA/CbIHNIIIA/Windows/Menu.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/syrga/RiderProjects/CbIHNIIIA/CbIHNIIIA/Windows/PlayersWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
